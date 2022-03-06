@@ -8,31 +8,48 @@ public class Medidas {
     // 3.1 - Atributos - Caracteristicas
 
     // 3.2 - Métodos e Funções
-    public static void main(String[] args){
-        System.out.println("Bom Dia");
-        System.out.println("Calculo de Areas");
+    public static void main(String[] args) {
+        // Esvaziou esses codigos e jogou em modo curto
+        // Como chamar os Public void
+        // Fazer a instancia ou metodo estatico
+        // Menu de Restaurante
 
-        // Calcular o tamanho da area - Exemplo: o tamanho do tapete ou do piso
+        calcularAreaModoCurto();
+        calcularAreaModoExtenso();
+
 
     }
+    public static void calcularAreaModoCurto(){
+        System.out.println("Calculo de Areas Modo Curto");
 
-    public void calcularAreaModoExtenso(){
+        // Calculo de area - Reduzido
+
+        int largura = 4;
+        int comprimento = 3;
+        System.out.println("Para a largura de " + largura + "m e o comprimento de " + comprimento + "m a área é de " + largura * comprimento + "m2");
+    }
+
+
+    public static void calcularAreaModoExtenso(){
+        System.out.println("Calculo de Areas Modo Extenso");
+
+        // Calculo de área - Exemplo: o tamanho do tapete ou do piso
+
         int largura;
         int comprimento;
         int resultado;
 
-        largura = 4; // largura recebe 4
-        comprimento = 3; // comprimento recebe 3
+        largura = 5; // largura recebe 5
+        comprimento = 6;
 
-        resultado = largura * comprimento; // Calculo recebe em resultado
-        System.out.println("Para a largura de " + largura + " m² e comprimento de  " + comprimento + " m² o resultado é: " + resultado + "m²");
+        resultado = largura * comprimento;
+        System.out.println("Para a largura de " +largura+ "m e o comprimento de " + comprimento + " a area é de " + resultado + "m2" );
+
     }
 
-    public void calcularAreaModoCompacto(){
-        // Calculo da area - Reduzida
-        int largura = 4;
-        int comprimento = 3;
-        System.out.println( "O resultado é " + largura * comprimento);
+
+
+
     }
 
-}
+
